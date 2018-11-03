@@ -14,7 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
+    @IBAction func tappedTest(_ sender: Any) {
+        self.performSegue(withIdentifier: "SecondPageSegue", sender: self)
+        
+    }
 
 }
 
